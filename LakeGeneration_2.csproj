@@ -55,12 +55,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Maths\PolarPolynomial.cs" />
     <Compile Include="Utils\DepthColorPalette.cs" />
     <Compile Include="Generation\Generator.cs" />
     <Compile Include="Generation\Lake.cs" />
     <Compile Include="Rendering\Renderer.cs" />
     <Compile Include="Enums\StateType.cs" />
-    <Compile Include="Math\Vector2D.cs" />
+    <Compile Include="Maths\Vector2D.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

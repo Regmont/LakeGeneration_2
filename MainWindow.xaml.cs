@@ -22,7 +22,7 @@ namespace LakeGeneration_2
             renderer = new Renderer();
             displayImage.Source = renderer.InitializeBitmap(actualWidth, actualHeight);
 
-            Lake lake = new Lake(200, 500, 200, 500);
+            Lake lake = new Lake(200, 500, 200, 500, 0.1f, 0.05f);
             Generator generator = new Generator(actualWidth, actualHeight, lake);
 
             renderer.DrawDepthGrid(generator.GetGrid());
